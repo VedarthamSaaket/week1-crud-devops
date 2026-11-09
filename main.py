@@ -1,4 +1,5 @@
 import logging
+import os
 
 from fastapi import FastAPI
 from prometheus_client import Counter, make_asgi_app
